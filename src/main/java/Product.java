@@ -18,4 +18,11 @@ public class Product {
     public static double power(double base, double exponent) {
         return Math.pow(base, exponent);
     }
+
+    public static void main(String[] args) {
+        System.out.println(multiply(2,3)); // ejecutamos el método
+        System.out.println(multiply(3,5));
+        System.out.println(multiply(2,3,4));
+        System.out.println(power(5,3));
+    }
 }

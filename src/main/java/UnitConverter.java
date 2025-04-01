@@ -18,4 +18,11 @@ public class UnitConverter {
     public static double radiansToDegrees(double radians) {
         return radians * 180 / Math.PI;
     }
+
+    public static void main(String[] args) {
+        System.out.println(celsiusToFahrenheit(25)); // ejecutamos el método
+        System.out.println(fahrenheitToCelsius(30));
+        System.out.println(degreesToRadians(20));
+        System.out.println(radiansToDegrees(55));
+    }
 }
